@@ -1,0 +1,61 @@
+[
+  {
+    "id": "social-impact",
+    "title": "Social Impact Platform",
+    "featured": true,
+    "status": "Client capstone · In progress",
+    "description": "Building a platform that helps people discover social impact events and connect with local organizations. My backend work includes account and organization profile flows.",
+    "stack": ["Java", "Spring Boot", "React", "PostgreSQL"],
+    "links": [{"label": "View source", "url": "https://github.com/stevenyonduan/DCB6321-Social-Impact-Platform"}],
+    "media": []
+  },
+  {
+    "id": "grocery",
+    "title": "Grocery Platform",
+    "featured": true,
+    "description": "Built a store portal and backend for managing grocery inventory, store profiles, and bulk product imports from CSV and Excel.",
+    "stack": ["FastAPI", "PostgreSQL", "Next.js", "Docker"],
+    "links": [
+      {"label": "Open live app", "url": "https://grocery-platform-iota.vercel.app"},
+      {"label": "View source", "url": "https://github.com/stevenyonduan/grocery-platform"}
+    ],
+    "media": [{"src": "assets/grocery-preview.jpg", "alt": "Illustration of a grocery inventory table", "caption": "Inventory workflow illustration"}]
+  },
+  {
+    "id": "countdown",
+    "title": "FPGA Countdown Timer",
+    "featured": true,
+    "status": "Demo video pending",
+    "description": "Wrote the SCOMP application for a VHDL peripheral that runs two countdowns independently. The peripheral supports pause, resume, and reset, and signals when a timer finishes.",
+    "stack": ["SCOMP assembly", "VHDL", "DE10-Standard"],
+    "links": [],
+    "media": [{"src": "assets/countdown-preview.jpg", "alt": "Illustration of an FPGA development board with a countdown display", "caption": "Illustrative hardware preview"}]
+  },
+  {
+    "id": "local-lens",
+    "title": "Local Lens",
+    "featured": false,
+    "description": "Led backend development for a trip planner. Built itinerary APIs, enforced ownership and access controls, and implemented distance calculations between places.",
+    "stack": ["Java", "Spring Boot", "PostgreSQL", "React"],
+    "links": [],
+    "media": [{"src": "assets/local-lens-preview.jpg", "alt": "Illustration of a trip itinerary next to a map", "caption": "Itinerary workflow illustration"}]
+  },
+  {
+    "id": "campusfix",
+    "title": "CampusFix",
+    "featured": false,
+    "description": "Built an Android app that lets students report campus maintenance issues and staff manage requests. Used Firebase for role-based access and issue tracking.",
+    "stack": ["Java", "Android", "Firebase"],
+    "links": [],
+    "media": [{"src": "assets/campusfix-preview.jpg", "alt": "Illustration of a campus maintenance request form on a phone", "caption": "Maintenance request workflow illustration"}]
+  },
+  {
+    "id": "buzzmatch",
+    "title": "Buzzmatch",
+    "featured": false,
+    "description": "Built profile and matchmaking APIs for a Georgia Tech Web Development Club project. Used embeddings and vector similarity to recommend potential teammates.",
+    "stack": ["Node.js", "Express", "MongoDB"],
+    "links": [],
+    "media": []
+  }
+]

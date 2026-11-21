@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Steven Yon Duan, a Georgia Tech computer science senior. Selected work in backend development, full-stack software, and computer systems.">
+  <title>Steven Yon Duan · Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <div>
+        <h1>Steven Yon Duan</h1>
+        <p>Georgia Tech CS senior focused on backend and systems.</p>
+        <nav aria-label="Profile links">
+          <a href="https://github.com/stevenyonduan">GitHub</a>
+          <a href="https://www.linkedin.com/in/stevenyon/">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="portrait">
+        <img data-src="" alt="Steven Yon Duan" hidden>
+        <span aria-hidden="true"></span>
+      </div>
+    </header>
+
+    <p id="load-status" role="status">Loading projects…</p>
+    <noscript><p>Enable JavaScript to browse projects.</p></noscript>
+    <section class="project-section" aria-labelledby="featured-title" hidden>
+      <h2 id="featured-title">Featured projects</h2>
+      <div id="featured"></div>
+    </section>
+    <section class="project-section" aria-labelledby="projects-title" hidden>
+      <h2 id="projects-title">Projects</h2>
+      <div id="projects"></div>
+    </section>
+  </main>
+</body>
+</html>
